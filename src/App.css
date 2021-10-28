@@ -1,38 +1,149 @@
-.App {
-  text-align: center;
-}
+import styled from "styled-components";
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+export const NalogovyjVychetDefoltnajaTwo = styled.div`
+  background: rgba(0, 0, 0, 0.3) rgba(0, 0, 0, 0.3)
+    rgba(255, 255, 255, 1);
+  padding: 120px 444px 204px;
+  display: flex;
+  align-items: flex-start;
+`;
+export const NalogovyjVychetDefoltnaja = styled.div`
+  overflow: hidden;
+  border-radius: 30px;
+  padding: 16px 16px 32px 32px;
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
+`;
+export const FlexWrapperOne = styled.div`
+  margin-bottom: 16px;
+  display: flex;
+  align-items: flex-start;
+`;
+export const NalogovyjVychet = styled.p`
+  font-family: "Lab Grotesque";
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 40px;
+  margin-top: 16px;
+  margin-right: 229px;
+`;
+export const Jamclose = styled.div`
+  padding: 11px;
+  display: flex;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+`;
+export const Vector = styled.img`
+  width: 18px;
+  height: 18px;
+`;
+export const IspolZujteNalogovyjVychetChtobyPogasi = styled.p`
+  max-width: 488px;
+  font-family: "Lab Grotesque";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgba(128, 128, 128, 1);
+  margin-bottom: 24px;
+`;
+export const InputIdle = styled.div`
+  margin-bottom: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+`;
+export const VashaZarplataVMesjac = styled.p`
+  width: 31.76%;
+  height: 33.33%;
+  font-family: "Lab Grotesque";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  margin-bottom: 8px;
+`;
+export const Group383 = styled.div`
+  border-radius: 3px;
+  padding: 7px 371px 7px 9px;
+  display: flex;
+  align-items: center;
+  border: 1px solid rgba(223, 227, 230, 1);
+`;
+export const VvediteDannye = styled.p`
+  font-family: "Lab Grotesque";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgba(190, 197, 204, 1);
+  flex: 1;
+  align-self: stretch;
+`;
+export const Rasschitat = styled.p`
+  height: 5.61%;
+  width: 15.08%;
+  font-family: "Lab Grotesque";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  display: flex;
+  margin-bottom: 24px;
+`;
+export const Group740 = styled.div`
+  margin-bottom: 40px;
+  display: flex;
+  align-items: flex-start;
+`;
+export const ChtoUmenShaem = styled.p`
+  font-family: "Lab Grotesque";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  margin-top: 4px;
+  margin-right: 32px;
+`;
+export const Tag = styled.div`
+  background: 249deg rgba(220, 49, 49, 1) 1%
+    rgba(255, 79, 79, 0) 110% rgba(255, 94, 86, 1);
+  margin-right: 16px;
+  overflow: hidden;
+  border-radius: 50px;
+  padding: 6px 12px;
+  display: flex;
+  align-items: center;
+`;
+export const Platjozh = styled.p`
+  font-family: "Lab Grotesque";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+`;
+export const TagTwo = styled.div`
+  background-color: rgba(238, 240, 242, 1);
+  overflow: hidden;
+  border-radius: 50px;
+  padding: 6px 12px;
+  display: flex;
+  align-items: center;
+`;
+export const Srok = styled.p`
+  font-family: "Lab Grotesque";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+`;
+export const Btn = styled.div`
+  background: 265deg rgba(220, 49, 49, 1) 0%
+    rgba(255, 79, 79, 0) 113% rgba(255, 94, 86, 1);
+  border-radius: 6px;
+  padding: 16px 0;
+  box-shadow: 0 0 24px 0 rgba(234, 0, 41, 0.33);
+  display: flex;
+  align-items: center;
+`;
+export const Dobavit = styled.p`
+  flex: 1;
+  align-self: stretch;
+  text-align: center;
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+`;
